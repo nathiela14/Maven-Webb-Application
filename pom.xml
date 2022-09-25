@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>jaguar-web-app</artifactId>
+	<artifactId>bmw-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>jaguar-web-app</finalName>
+		<finalName>bmw-web-app</finalName>
 		
 		<plugins>
 			<plugin>

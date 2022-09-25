@@ -3,17 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>ford-web-app</artifactId>
+	<artifactId>malibu-web-app</artifactId>
 	<packaging>war</packaging>
+	<version>0.0.1</version>
 	
-	<version>0.0.1</version> 
-	
-	<name>ford-web-app</name>
+	<name>malibu-web-app</name>
 
 	<description>Maven Web Project for Java Project</description>
-
 	<organization>
-		<name>Landmark Technologies</name>
+		<name>Malibu App</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -22,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:172.31.21.40:9000/</sonar.host.url>
+		<sonar.host.url>http://http://54.242.246.164:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -59,7 +57,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- compile dependencies -->
+		<!-- compile dependencies nnn-->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -92,11 +90,13 @@
 		</dependency>
 		
 	</dependencies>
+	
 	<distributionManagement>
+		
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.211.149.195:8081/repository/tesla-fe-releases/</url>
+	      <url>http://44.211.149.195:8081/repository/tesla-fe-releases/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
@@ -104,17 +104,16 @@
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>http://44.211.149.195:8081/repository/tesla-fe-snapshot/</url>
 	    </snapshotRepository>
-	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>ford-web-app</finalName>
+		<finalName>malibu-web-app</finalName>
 		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
+				<version>3.10.1</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
@@ -128,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>ford-web-app</contextPath>
+						<contextPath>/malibu-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -136,12 +135,12 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>2.9</version>
+				<version>2.10</version>
 				<configuration>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>ford-web-app</wtpContextName>
+					<wtpContextName>malibu-web-app</wtpContextName>
 				</configuration>
 			</plugin>
 			

@@ -8,7 +8,7 @@
 	
 	<version>0.0.1-SNAPSHOT</version> 
 	
-	<name>bentley-web-app</name>
+	<name>ford-web-app</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -102,13 +102,13 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.92.239:8081/repository/tesla-fe-SNAPSHOTS/</url>
+	      <url>http://172.31.92.239:8081/repository/tesla-fe-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>bentley-web-app</finalName>
+		<finalName>ford-web-app</finalName>
 		
 		<plugins>
 			<plugin>
@@ -128,7 +128,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>bentley-web-app</contextPath>
+						<contextPath>ford-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -141,7 +141,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>bentley-web-app</wtpContextName>
+					<wtpContextName>ford-web-app</wtpContextName>
 				</configuration>
 			</plugin>
 			

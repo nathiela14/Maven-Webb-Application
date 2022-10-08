@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/jaguar-web-app</contextPath>
+						<contextPath>/Visa-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
